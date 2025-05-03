@@ -68,3 +68,43 @@ if (escolha == numeroSecreto) {
     console.log("❌ Erro! O jogador não encontrou o número secreto");
     alert("Você errou :(");
 }
+
+- Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
+
+let dia = prompt ("Digite qual é o dia da semana: ");
+
+if (dia == "Sábado" || dia == "Domingo") {
+    alert("Bom fim de semana!");
+} else {
+    alert ("Boa semana!");
+}
+
+- Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+
+let numero = prompt("Digite um número: ");
+
+if (numero > 0) {
+    alert ("O número digitado é positivo");
+} else (numero < 0) {
+    alert ("O número digitado é negativo");
+}
+
+- Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
+
+let pontuacao = 150;
+
+if (pontuação >= 100) {
+    alert ("Parabéns, você venceu!");
+} else {
+    alert ("Tente novamente para ganhar.");
+}
+
+- Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+
+let saldoNaConta = 150;
+alert ("O saldo na sua conta é de R$ ${saldoNaConta}.");
+
+- Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+
+let nome = prompt ("Digite o seu nome!");
+alert ("Olá ${nome}, sejá bem vindo ao nosso sistema!");
