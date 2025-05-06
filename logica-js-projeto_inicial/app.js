@@ -1,12 +1,13 @@
 alert ("Boas vinda ao jogo do número secreto");
-let numeroSecreto = parseInt(Math.random() * 100 + 1);
+let numeroMaximo = 5000;
+let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 console.log(numeroSecreto);
 let escolha;
 let tentativas = 1;
 
 //enquanto a escolha não for igual ao número secreto
 while (escolha != numeroSecreto) {
-   escolha = prompt("Escolha um número entre 1 e 100");
+   escolha = prompt(`Escolha um número entre 1 e ${numeroMaximo}`);
    //se escolha for igual ao número secreto
     if (escolha == numeroSecreto) {
         break;
