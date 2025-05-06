@@ -21,8 +21,12 @@ while (escolha != numeroSecreto) {
     }
 }
 
-if (tentativas > 1) {
-    alert(`Parabéns! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
-} else {
-    alert(`Parabéns! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa.`);
-}
+//operador ternário
+let palavraTentativa = tentativas > 1 ? "tentativas" : "tentativa";
+alert(`Parabéns! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}.`);
+
+//if (tentativas > 1) {
+//    alert(`Parabéns! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
+//} else {
+//    alert(`Parabéns! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa.`);
+//}
