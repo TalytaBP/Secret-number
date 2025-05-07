@@ -7,7 +7,9 @@
 <h2> 📝 Sobre</h2>
 <p>Projeto utilizado nos cursos de lógica de programação da Alura.</p>
 <p>Nome dos cursos: </p>
+
 1. Lógica de programação: mergulhe em programação com JavaScript;
+
 2. Lógica de programação: explore funções e listas; 
 
 ## Tecnologias
