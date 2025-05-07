@@ -18,6 +18,8 @@
 
 [![Secret-number](https://github-readme-stats.vercel.app/api/pin/?username=TALYTABP&repo=Secret-number)](https://github.com/TALYTABP/Secret-number)
 
+[![Secret-number](https://github-readme-stats.vercel.app/api/pin/?username=TALYTABP&repo=Secret-number&show_icons=true&theme=radical&show_owner=true)](https://github.com/TALYTABP/Secret-number)
+
 ## Teste
 
 ## Colaborador
