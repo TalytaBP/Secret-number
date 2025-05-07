@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/JavaScripst-orange?style=flat&logo=javascript&logoColor-black">
 </div>
 
-[![Secret-number](https://github-readme-stats.vercel.app/api/pin/?username=Secret-number&repo=Secret-number)](https://github.com/TalytaBP/Secret-number)
+[![Secret-number](https://github-readme-stats.vercel.app/api/pin/?username=TALYTABP&repo=Secret-number)](https://github.com/TALYTABP/Secret-number)
 
 ## Teste
 
