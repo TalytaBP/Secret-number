@@ -279,3 +279,51 @@ function soma() {
     let resultado = number1 + number2;
     alert(`A somatória dos números escolhidos foram: ${number1} + ${number2} = ${resultado}.`);
 }
+
+- Criar uma função que exibe "Olá, mundo!" no console.
+
+function exibirSaudacao () {
+    console.log ("Olá, mundo!");
+}
+exibirSaudacao();
+
+
+- Criar uma função que recebe um nome como parâmetro e exibe "Olá, [nome]!" no console.
+
+function exibirNome(nome) {
+   console.log (`Olá, ${nome}!`);
+}
+exibirNome("Talyta");
+
+- Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
+
+function exibirDobro(numero) {
+    return numero * 2;
+}
+
+let resultado = exibirDobro(6);
+console.log(resultado);
+
+- Criar uma função que recebe três números como parâmetros e retorna a média deles.
+
+function exibirMedia(a, b , c) {
+    return (a + b + c) / 3; 
+}
+let media = exibirMedia(3,3,3);
+console.log(media);
+
+- Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+
+function exibirMaior(a,b) {
+    return a >b ? a: b;
+}
+let maior = exibirMaior(9,5);
+console.log(maior);
+
+- Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
+
+function exibirMulti(a) {
+    return a * a;
+}
+let multi = exibirMulti(5);
+console.log(multi);
