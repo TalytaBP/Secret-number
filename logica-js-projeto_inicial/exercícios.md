@@ -1,4 +1,4 @@
-# Exercícios
+# Exercícios 1° Curso
 
 - Mostre um alerta com a mensagem "Boas vindas ao nosso site!";
 
@@ -102,12 +102,12 @@ if (pontuação >= 100) {
 - Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
 
 let saldoNaConta = 150;
-alert ("O saldo na sua conta é de R$ ${saldoNaConta}.");
+alert (`O saldo na sua conta é de R$ ${saldoNaConta}.`);
 
 - Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 
 let nome = prompt ("Digite o seu nome!");
-alert ("Olá ${nome}, sejá bem vindo ao nosso sistema!");
+alert (`Olá ${nome}, sejá bem vindo ao nosso sistema!`);
 
 - Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
 
@@ -233,3 +233,49 @@ console.log(numeroAleatorio);
 
 let numeroAleatorio = parseInt(Math.random() * 1000) + 1;
 console.log(numeroAleatorio);
+
+# Exercícios 2° Curso
+
+- Faça o download de outro projeto clicando neste link e abra no Visual Studio Code.
+https://github.com/alura-cursos/js-curso-2/tree/desafio_1
+
+- Altere o conteúdo da tag h1 com document.querySelector e atribua o seguinte texto: Hora do Desafio.
+
+let titulo = document.querySelector("h1");
+titulo.innerHTML = "Hora do Desafio";
+
+
+- Crie uma função que exiba no console a mensagem O botão foi clicado sempre que o botão Console for pressionado.
+
+function verificarChute() {
+    console.log("O botão foi clicado");
+}
+
+
+- Crie uma função que exiba um alerta com a mensagem: Eu amo JS, sempre que o botão Alerta for pressionado.
+
+<button onclick="exibirAlerta()" class="container__botao">Alert</button>
+
+function exibirAlerta() {
+    alert("Eu amo JS");
+}
+
+- Crie uma função que é executada quando o botão prompt é clicado, perguntando o nome de uma cidade do Brasil. Em seguida, exiba um alerta com a mensagem concatenando a resposta com o texto: Estive em {cidade} e lembrei de você.
+
+<button onclick="exibirPrompt()" class="container__botao">Prompt</button>
+
+function exibirPrompt() {
+    let cidade = prompt("Em qual cidade você se encontra?");
+    alert(`Estive em ${cidade} e lembrei de você.`);
+}
+
+- Ao clicar no botão soma, peça 2 números inteiros e exiba o resultado da soma em um alerta.
+
+<button onclick="soma()" class="container__botao">Soma</button>
+
+function soma() {
+    let number1 = parseInt(prompt("Digite um número interiro"));
+    let number2 = parseInt(prompt("Digite o segundo número interio"));
+    let resultado = number1 + number2;
+    alert(`A somatória dos números escolhidos foram: ${number1} + ${number2} = ${resultado}.`);
+}
